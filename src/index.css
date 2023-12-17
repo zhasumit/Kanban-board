@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+    @apply bg-gray-950/90 text-white box-border font-sans
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 14px;
+    @apply bg-gray-300/50 rounded-lg
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-blue-950 rounded-xl
+}
