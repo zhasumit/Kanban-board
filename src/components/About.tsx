@@ -7,7 +7,7 @@ function Contact() {
 						<img
 							alt="Contact us"
 							className="max-w-[35vw] rounded-xl"
-							src="../../images/sumitzha.png"
+							src="sumitzha.png"
 						/>
 						<div className="flex items-center justify-center">
 							<div className="px-2 md:px-12">
